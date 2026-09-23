@@ -1,0 +1,14 @@
+{
+  "name": "hebbian-router",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Experiment: does a Hebbian agent-affinity router beat keyword/Thompson-sampling routers?",
+  "scripts": {
+    "test": "node --test",
+    "experiment": "node src/experiment.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

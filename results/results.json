@@ -1,0 +1,443 @@
+{
+  "seeds": 30,
+  "T": 2000,
+  "driftPoint": 1000,
+  "routerNames": [
+    "keyword",
+    "thompson",
+    "hebbian",
+    "hebbian-no-decay",
+    "pheromone",
+    "pheromone-select",
+    "pheromone-tuned",
+    "pheromone-select-tuned",
+    "biomesh-sgd",
+    "biomesh-consolidation-only",
+    "biomesh-consolidation+replay",
+    "biomesh-full",
+    "biomesh-full-defaults"
+  ],
+  "aggregate": {
+    "keyword": {
+      "successRate": 0.7011000000000001,
+      "totalRegret": 210.20566666666525,
+      "preDriftSuccessRate": 0.6774000000000001,
+      "earlyPostDriftSuccessRate": 0.7106666666666668,
+      "latePostDriftSuccessRate": 0.6946666666666667
+    },
+    "thompson": {
+      "successRate": 0.7234166666666667,
+      "totalRegret": 164.35033333333314,
+      "preDriftSuccessRate": 0.7125999999999998,
+      "earlyPostDriftSuccessRate": 0.7006666666666667,
+      "latePostDriftSuccessRate": 0.7333333333333333
+    },
+    "hebbian": {
+      "successRate": 0.7239333333333332,
+      "totalRegret": 166.94733333333306,
+      "preDriftSuccessRate": 0.7026666666666667,
+      "earlyPostDriftSuccessRate": 0.686,
+      "latePostDriftSuccessRate": 0.7493333333333333
+    },
+    "hebbian-no-decay": {
+      "successRate": 0.5179500000000001,
+      "totalRegret": 574.766000000002,
+      "preDriftSuccessRate": 0.5141666666666668,
+      "earlyPostDriftSuccessRate": 0.49066666666666664,
+      "latePostDriftSuccessRate": 0.5086666666666667
+    },
+    "pheromone": {
+      "successRate": 0.7011000000000001,
+      "totalRegret": 210.20566666666525,
+      "preDriftSuccessRate": 0.6774000000000001,
+      "earlyPostDriftSuccessRate": 0.7106666666666668,
+      "latePostDriftSuccessRate": 0.6946666666666667
+    },
+    "pheromone-select": {
+      "successRate": 0.25343333333333334,
+      "totalRegret": 1100.7606666666654,
+      "preDriftSuccessRate": 0.29653333333333337,
+      "earlyPostDriftSuccessRate": 0.22599999999999998,
+      "latePostDriftSuccessRate": 0.1833333333333333
+    },
+    "pheromone-tuned": {
+      "successRate": 0.7011000000000001,
+      "totalRegret": 210.20566666666525,
+      "preDriftSuccessRate": 0.6774000000000001,
+      "earlyPostDriftSuccessRate": 0.7106666666666668,
+      "latePostDriftSuccessRate": 0.6946666666666667
+    },
+    "pheromone-select-tuned": {
+      "successRate": 0.7044333333333335,
+      "totalRegret": 202.59733333333253,
+      "preDriftSuccessRate": 0.6909666666666666,
+      "earlyPostDriftSuccessRate": 0.681333333333333,
+      "latePostDriftSuccessRate": 0.7066666666666666
+    },
+    "biomesh-sgd": {
+      "successRate": 0.7226000000000001,
+      "totalRegret": 163.57499999999945,
+      "preDriftSuccessRate": 0.7025000000000002,
+      "earlyPostDriftSuccessRate": 0.6806666666666666,
+      "latePostDriftSuccessRate": 0.7366666666666668
+    },
+    "biomesh-consolidation-only": {
+      "successRate": 0.6884999999999999,
+      "totalRegret": 232.52099999999962,
+      "preDriftSuccessRate": 0.6767999999999997,
+      "earlyPostDriftSuccessRate": 0.674,
+      "latePostDriftSuccessRate": 0.6853333333333332
+    },
+    "biomesh-consolidation+replay": {
+      "successRate": 0.6662333333333333,
+      "totalRegret": 278.01833333333263,
+      "preDriftSuccessRate": 0.6675,
+      "earlyPostDriftSuccessRate": 0.6453333333333332,
+      "latePostDriftSuccessRate": 0.6473333333333333
+    },
+    "biomesh-full": {
+      "successRate": 0.7025166666666667,
+      "totalRegret": 207.7676666666659,
+      "preDriftSuccessRate": 0.7002333333333335,
+      "earlyPostDriftSuccessRate": 0.6633333333333333,
+      "latePostDriftSuccessRate": 0.6873333333333332
+    },
+    "biomesh-full-defaults": {
+      "successRate": 0.5602666666666667,
+      "totalRegret": 491.20000000000056,
+      "preDriftSuccessRate": 0.5740333333333332,
+      "earlyPostDriftSuccessRate": 0.544,
+      "latePostDriftSuccessRate": 0.4993333333333334
+    }
+  },
+  "paired": {
+    "keyword": {
+      "successRate": {
+        "mean": 0.022833333333333348,
+        "ci95": 0.008708458988259152,
+        "refWins": 28,
+        "otherWins": 2
+      },
+      "totalRegret": {
+        "mean": 43.25833333333223,
+        "ci95": 16.51111425703632,
+        "refWins": 28,
+        "otherWins": 2
+      }
+    },
+    "thompson": {
+      "successRate": {
+        "mean": 0.0005166666666666542,
+        "ci95": 0.007160602645811126,
+        "refWins": 16,
+        "otherWins": 14
+      },
+      "totalRegret": {
+        "mean": -2.596999999999938,
+        "ci95": 15.0268761102467,
+        "refWins": 15,
+        "otherWins": 15
+      }
+    },
+    "hebbian-no-decay": {
+      "successRate": {
+        "mean": 0.20598333333333332,
+        "ci95": 0.02458762556299225,
+        "refWins": 30,
+        "otherWins": 0
+      },
+      "totalRegret": {
+        "mean": 407.818666666669,
+        "ci95": 49.13915699822063,
+        "refWins": 30,
+        "otherWins": 0
+      }
+    },
+    "pheromone": {
+      "successRate": {
+        "mean": 0.022833333333333348,
+        "ci95": 0.008708458988259152,
+        "refWins": 28,
+        "otherWins": 2
+      },
+      "totalRegret": {
+        "mean": 43.25833333333223,
+        "ci95": 16.51111425703632,
+        "refWins": 28,
+        "otherWins": 2
+      }
+    },
+    "pheromone-select": {
+      "successRate": {
+        "mean": 0.47050000000000003,
+        "ci95": 0.010836215710271744,
+        "refWins": 30,
+        "otherWins": 0
+      },
+      "totalRegret": {
+        "mean": 933.8133333333324,
+        "ci95": 18.382242457138336,
+        "refWins": 30,
+        "otherWins": 0
+      }
+    },
+    "pheromone-tuned": {
+      "successRate": {
+        "mean": 0.022833333333333348,
+        "ci95": 0.008708458988259152,
+        "refWins": 28,
+        "otherWins": 2
+      },
+      "totalRegret": {
+        "mean": 43.25833333333223,
+        "ci95": 16.51111425703632,
+        "refWins": 28,
+        "otherWins": 2
+      }
+    },
+    "pheromone-select-tuned": {
+      "successRate": {
+        "mean": 0.019500000000000003,
+        "ci95": 0.016331915909351083,
+        "refWins": 18,
+        "otherWins": 12
+      },
+      "totalRegret": {
+        "mean": 35.64999999999952,
+        "ci95": 33.481911901498876,
+        "refWins": 18,
+        "otherWins": 12
+      }
+    },
+    "biomesh-sgd": {
+      "successRate": {
+        "mean": 0.0013333333333333383,
+        "ci95": 0.010687739085403554,
+        "refWins": 14,
+        "otherWins": 16
+      },
+      "totalRegret": {
+        "mean": -3.372333333333533,
+        "ci95": 21.416430838326676,
+        "refWins": 12,
+        "otherWins": 18
+      }
+    },
+    "biomesh-consolidation-only": {
+      "successRate": {
+        "mean": 0.035433333333333324,
+        "ci95": 0.014570752494064783,
+        "refWins": 24,
+        "otherWins": 6
+      },
+      "totalRegret": {
+        "mean": 65.57366666666657,
+        "ci95": 29.336252280157126,
+        "refWins": 23,
+        "otherWins": 7
+      }
+    },
+    "biomesh-consolidation+replay": {
+      "successRate": {
+        "mean": 0.05770000000000001,
+        "ci95": 0.01917105463187343,
+        "refWins": 24,
+        "otherWins": 6
+      },
+      "totalRegret": {
+        "mean": 111.07099999999963,
+        "ci95": 39.20708669904183,
+        "refWins": 24,
+        "otherWins": 6
+      }
+    },
+    "biomesh-full": {
+      "successRate": {
+        "mean": 0.021416666666666664,
+        "ci95": 0.014236129417486592,
+        "refWins": 21,
+        "otherWins": 9
+      },
+      "totalRegret": {
+        "mean": 40.82033333333295,
+        "ci95": 29.514551894111325,
+        "refWins": 22,
+        "otherWins": 8
+      }
+    },
+    "biomesh-full-defaults": {
+      "successRate": {
+        "mean": 0.16366666666666668,
+        "ci95": 0.025817875783573925,
+        "refWins": 30,
+        "otherWins": 0
+      },
+      "totalRegret": {
+        "mean": 324.25266666666755,
+        "ci95": 49.31576137969675,
+        "refWins": 30,
+        "otherWins": 0
+      }
+    }
+  },
+  "bioVsSgd": {
+    "biomesh-consolidation-only": {
+      "successRate": {
+        "mean": -0.03409999999999999,
+        "ci95": 0.013223557863268816,
+        "refWins": 7,
+        "otherWins": 23
+      },
+      "preDriftSuccessRate": {
+        "mean": -0.02569999999999999,
+        "ci95": 0.02414031086200771,
+        "refWins": 11,
+        "otherWins": 19
+      },
+      "earlyPostDriftSuccessRate": {
+        "mean": -0.006666666666666678,
+        "ci95": 0.022215107385934067,
+        "refWins": 10,
+        "otherWins": 18
+      },
+      "latePostDriftSuccessRate": {
+        "mean": -0.05133333333333335,
+        "ci95": 0.024468071469896,
+        "refWins": 6,
+        "otherWins": 20
+      }
+    },
+    "biomesh-consolidation+replay": {
+      "successRate": {
+        "mean": -0.056366666666666676,
+        "ci95": 0.019386813071318877,
+        "refWins": 6,
+        "otherWins": 24
+      },
+      "preDriftSuccessRate": {
+        "mean": -0.034999999999999996,
+        "ci95": 0.025931277727827086,
+        "refWins": 10,
+        "otherWins": 20
+      },
+      "earlyPostDriftSuccessRate": {
+        "mean": -0.035333333333333335,
+        "ci95": 0.025694652461827526,
+        "refWins": 7,
+        "otherWins": 19
+      },
+      "latePostDriftSuccessRate": {
+        "mean": -0.08933333333333333,
+        "ci95": 0.03478964925116603,
+        "refWins": 4,
+        "otherWins": 24
+      }
+    },
+    "biomesh-full": {
+      "successRate": {
+        "mean": -0.020083333333333328,
+        "ci95": 0.013067019301307301,
+        "refWins": 11,
+        "otherWins": 19
+      },
+      "preDriftSuccessRate": {
+        "mean": -0.0022666666666666686,
+        "ci95": 0.019923977091863162,
+        "refWins": 14,
+        "otherWins": 16
+      },
+      "earlyPostDriftSuccessRate": {
+        "mean": -0.017333333333333336,
+        "ci95": 0.0181573947023101,
+        "refWins": 8,
+        "otherWins": 15
+      },
+      "latePostDriftSuccessRate": {
+        "mean": -0.04933333333333335,
+        "ci95": 0.022762303346538695,
+        "refWins": 3,
+        "otherWins": 24
+      }
+    },
+    "biomesh-full-defaults": {
+      "successRate": {
+        "mean": -0.16233333333333333,
+        "ci95": 0.02732205459179192,
+        "refWins": 1,
+        "otherWins": 29
+      },
+      "preDriftSuccessRate": {
+        "mean": -0.12846666666666667,
+        "ci95": 0.028531902520187044,
+        "refWins": 1,
+        "otherWins": 29
+      },
+      "earlyPostDriftSuccessRate": {
+        "mean": -0.13666666666666671,
+        "ci95": 0.034195974786089677,
+        "refWins": 1,
+        "otherWins": 27
+      },
+      "latePostDriftSuccessRate": {
+        "mean": -0.23733333333333337,
+        "ci95": 0.04140151525166801,
+        "refWins": 0,
+        "otherWins": 30
+      }
+    }
+  },
+  "bioFull": {
+    "hebbian": {
+      "successRate": {
+        "mean": -0.021416666666666664,
+        "ci95": 0.014236129417486592,
+        "refWins": 9,
+        "otherWins": 21
+      },
+      "preDriftSuccessRate": {
+        "mean": -0.002433333333333339,
+        "ci95": 0.01952128014616406,
+        "refWins": 17,
+        "otherWins": 13
+      },
+      "earlyPostDriftSuccessRate": {
+        "mean": -0.02266666666666666,
+        "ci95": 0.02025949967800451,
+        "refWins": 7,
+        "otherWins": 15
+      },
+      "latePostDriftSuccessRate": {
+        "mean": -0.06200000000000001,
+        "ci95": 0.023231908472279413,
+        "refWins": 1,
+        "otherWins": 23
+      }
+    },
+    "thompson": {
+      "successRate": {
+        "mean": -0.020900000000000012,
+        "ci95": 0.010846457987187152,
+        "refWins": 7,
+        "otherWins": 23
+      },
+      "preDriftSuccessRate": {
+        "mean": -0.012366666666666656,
+        "ci95": 0.01510116493276689,
+        "refWins": 13,
+        "otherWins": 16
+      },
+      "earlyPostDriftSuccessRate": {
+        "mean": -0.03733333333333332,
+        "ci95": 0.01948545625239462,
+        "refWins": 6,
+        "otherWins": 19
+      },
+      "latePostDriftSuccessRate": {
+        "mean": -0.04600000000000001,
+        "ci95": 0.021673318598693186,
+        "refWins": 4,
+        "otherWins": 23
+      }
+    }
+  }
+}
